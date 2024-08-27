@@ -19,7 +19,6 @@ class City {
   }
 } 
 
-// TODO: Complete the HistoryService class
 class HistoryService {
   private async read() {
     return await fs.readFile("db.json", "utf-8");
@@ -41,7 +40,6 @@ class HistoryService {
     });
   }
 
-  // TODO Define an addCity method that adds a city to the db.json file
   async addCity(city: string) {
     if (!city) {
       throw new Error("City name is required");
@@ -56,6 +54,7 @@ class HistoryService {
     .then(updatedCities => this.write(updatedCities))
     .then(() => newCity);
   }
+
   // * BONUS TODO: Define a removeCity method that removes a city from the db.json file
   // async removeCity(id: string) {}
   
