@@ -77,7 +77,7 @@ class WeatherService {
 
   // TODO: Create fetchAndDestructureLocationData method
   private async fetchAndDestructureLocationData() {
-    
+    return 
   }
 
   // TODO: Create fetchWeatherData method
