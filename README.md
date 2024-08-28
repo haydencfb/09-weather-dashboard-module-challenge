@@ -42,4 +42,4 @@
   If you have any questions, please feel free to reach out to me at haydenfitzbrintle@gmail.com or visit my GitHub profile at [https://github.com/haydencfb]
 
   ## Link
-  Here is the deployed link: [https://zero9-weather-dashboard-module-challenge.onrender.com]
+  Here is the deployed link: [[https://zero9-weather-dashboard-module-challenge.onrender.com](https://zero9-weather-dashboard-module-challenge.onrender.com)]
